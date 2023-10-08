@@ -1,0 +1,163 @@
+body{
+    background-color: rgb(23, 23, 23);
+}
+.top{
+    background-image: url(https://dsm01pap009files.storage.live.com/y4m2ImsBP5babF2DYRHp-Cre5heSZTaWlKMw_JDUMIm3Js9IoCy5LZNV_Bcmk9ODjNgSBsKFPhXJEh20-It3fl0W4dYeobb18OUkLHbMfGwrtFPhiPfyb_gmBsbHoX0ZQ1WoX_nNwjZBWckopT4cxA1jMcO-ugQPM_VmWAVptOIayqweUiwYDOv0Yqt09E8oxkXuDZV4Gc1f_6y3-e2MUSojA?encodeFailures=1&width=1440&height=810);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    height: 700px;
+    background-size: 100%;
+    
+}
+.up{
+    display: flex;
+}
+.top-left{
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+    margin-left: 30px;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.top-right{
+    margin-left: 800px;
+    margin-top: 30px;
+    padding-right: 20px;
+}
+p{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.netflix{
+    margin-top: 23px;
+}
+.img{
+    margin-left: 10px;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+.line{
+    display: flex;
+}
+.img1{
+    margin-top: 20px;
+}
+.maid{
+    font-size: 100px;
+    margin-top: -25px;
+}
+.nshow{
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    margin-top: -120px;
+    margin-left: 15px;
+    border-radius: 50px;
+}
+
+button{
+    border-radius:5px;
+    border-collapse: collapse;
+    border-color: transparent;
+    
+}
+.as{
+    margin-right: 15px;
+}
+.see{
+    margin-top: -130px;
+}
+.fiveimage{
+    display: flex;
+    padding-left: -30px;
+}
+.asd{
+    border-radius: 50px;
+    margin-right: -120px;
+}
+.seeagain{
+    margin-left: 55px;
+}
+
+.seee{
+    margin-top: 00px;
+}
+
+.seeee{
+    margin-top: 100px;
+}
+.three{
+    margin-left: 50px;
+}
+
+.grid{
+    justify-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+}
+.grid1{
+    font-size: 5px;
+}
+.type {
+    display: flex;
+}
+@media screen and (max-width: 800px){
+    .top{
+        display: block;
+        font-size: 30px;
+        flex-direction: column;
+        /* background-size: cover; */
+    }
+    .netflix {
+        margin: 0;
+        padding: 0;
+    }
+   
+    p .type {
+        margin-top: 0;
+    }
+    .heading {
+        color: white;
+        margin-top: 0;
+    }
+    .maid {
+        /* color: white; */
+    }
+    .fiveimage {
+        display: flex;
+        flex-direction: column;
+    }
+    .asd {
+        margin: 2%;
+        margin-right: 0;
+    }
+    .asdf {
+        display: none;
+    }
+    .t10 {
+        margin: 2%;
+        display: flex;
+        flex-direction: column;
+    }
+    .top-right {
+        display: none;
+    }
+    .grid {
+        justify-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(4, 100px);
+    }
+}
